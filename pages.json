@@ -1,0 +1,112 @@
+{
+	"easycom": {
+		// "autoscan": true,
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "中源来"
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "信息资讯"
+			}
+		},
+		{
+			"path": "pages/clan/clan",
+			"style": {
+				"navigationBarTitleText": "家族"
+			}
+		}, 
+		{
+			"path": "pages/category/category",
+			"style": {
+				// "navigationBarTitleText": "分类",
+				// #ifdef MP-WEIXIN
+				"transparentTitle": "always",
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/mine/personalHomepage",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/editInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black",
+		"backgroundColor":"#f6f6f6"
+	},
+	"tabBar": {
+		"selectedColor": "#ff8000",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/iconTab/index.png",
+				"selectedIconPath": "static/iconTab/index_Active.png"
+			},
+			{
+				"pagePath": "pages/information/information",
+				"text": "信息",
+				"iconPath": "static/iconTab/message.png",
+				"selectedIconPath": "static/iconTab/message_Active.png"
+			}, {
+				"pagePath": "pages/clan/clan",
+				"text": "家族",
+				"iconPath": "static/iconTab/clan.png",
+				"selectedIconPath": "static/iconTab/clan_Active.png"
+			}, {
+				"pagePath": "pages/category/category",
+				"text": "资讯",
+				"iconPath": "static/iconTab/fenLei.png",
+				"selectedIconPath": "static/iconTab/fenLei_Active.png"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/iconTab/mine.png",
+				"selectedIconPath": "static/iconTab/mine_Active.png"
+			}
+		]
+	}
+
+}

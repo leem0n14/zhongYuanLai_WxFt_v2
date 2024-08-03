@@ -1,0 +1,63 @@
+/* 水平间距 */
+/* 水平间距 */
+.container .card.data-v-4d35b0ba {
+  width: 100%;
+  height: 392rpx;
+  position: relative;
+}
+.container .card image.data-v-4d35b0ba {
+  width: 100%;
+  height: 100%;
+}
+.container .card .bthTurnback.data-v-4d35b0ba {
+  position: absolute;
+}
+.container .card .catchAvatar.data-v-4d35b0ba {
+  width: 270rpx;
+  height: 270rpx;
+  position: absolute;
+  top: 240rpx;
+  left: 240rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container .card .catchAvatar.data-v-4d35b0ba:before {
+  content: "更换头像";
+  height: 24%;
+  width: 100%;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  background: linear-gradient(180deg, rgba(204, 204, 204, 0.3) 0%, rgba(51, 51, 51, 0.8) 100%);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
+.container .card .catchAvatar iamge.data-v-4d35b0ba {
+  width: 100%;
+  height: 100%;
+}
+.container .conUserInfo.data-v-4d35b0ba {
+  width: 630rpx;
+  height: 100%;
+  margin: 150rpx auto;
+  font-size: 27rpx;
+}
+.container .conUserInfo .userInfo.data-v-4d35b0ba {
+  margin-top: 60rpx;
+}
+.container .conUserInfo .userInfo input.data-v-4d35b0ba {
+  border-bottom: 2rpx solid #edaf8b;
+  margin-top: 15rpx;
+  padding: 10rpx;
+}
+.container .submit.data-v-4d35b0ba {
+  width: 500rpx;
+  height: 50rpx;
+  margin: 0 auto;
+}
+.container .submit button.data-v-4d35b0ba {
+  background: linear-gradient(270deg, #FF5600 0%, #FF9A7E 100%);
+  color: #fff;
+  border-radius: 20rpx;
+}

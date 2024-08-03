@@ -1,0 +1,1 @@
+"use strict";const e=require("../utils/request.js");exports.WxLogin=t=>e.service({method:"POST",url:"/wechat/login",data:t}),exports.userAccountInfUpdate=t=>e.service({method:"PUT",url:"/user",data:t});

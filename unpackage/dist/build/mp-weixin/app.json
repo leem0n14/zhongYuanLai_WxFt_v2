@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/search",
+    "pages/information/information",
+    "pages/clan/clan",
+    "pages/category/category",
+    "pages/mine/mine",
+    "pages/mine/personalHomepage",
+    "pages/mine/editInfo"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f6f6f6"
+  },
+  "tabBar": {
+    "selectedColor": "#ff8000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/iconTab/index.png",
+        "selectedIconPath": "static/iconTab/index_Active.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "信息",
+        "iconPath": "static/iconTab/message.png",
+        "selectedIconPath": "static/iconTab/message_Active.png"
+      },
+      {
+        "pagePath": "pages/clan/clan",
+        "text": "家族",
+        "iconPath": "static/iconTab/clan.png",
+        "selectedIconPath": "static/iconTab/clan_Active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "资讯",
+        "iconPath": "static/iconTab/fenLei.png",
+        "selectedIconPath": "static/iconTab/fenLei_Active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/iconTab/mine.png",
+        "selectedIconPath": "static/iconTab/mine_Active.png"
+      }
+    ]
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.5",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

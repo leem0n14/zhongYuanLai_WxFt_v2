@@ -1,0 +1,25 @@
+{
+  "hash": "23fa3048",
+  "configHash": "526c60fb",
+  "lockfileHash": "4387a8ed",
+  "browserHash": "ddaae7d8",
+  "optimized": {
+    "epubjs": {
+      "src": "../../../../../node_modules/.pnpm/epubjs@0.3.71/node_modules/epubjs/src/index.js",
+      "file": "epubjs.js",
+      "fileHash": "e60ae4a0",
+      "needsInterop": false
+    },
+    "epubjs/dist/epub.js": {
+      "src": "../../../../../node_modules/.pnpm/epubjs@0.3.71/node_modules/epubjs/dist/epub.js",
+      "file": "epubjs_dist_epub__js.js",
+      "fileHash": "0606e21d",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-2CQX6TAT": {
+      "file": "chunk-2CQX6TAT.js"
+    }
+  }
+}

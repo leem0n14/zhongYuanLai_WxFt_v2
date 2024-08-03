@@ -1,0 +1,1 @@
+<view class="container"><swiper class="swiper" vertical="{{true}}" bindchange="{{b}}"><swiper-item wx:for="{{a}}" wx:for-item="item"><view class="swiper-item"><video auto-pause-if-navigate="true" controls="false" src="{{item.a}}"></video></view></swiper-item></swiper></view>

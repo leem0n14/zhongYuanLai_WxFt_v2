@@ -1,0 +1,68 @@
+/* 水平间距 */
+/* 水平间距 */
+.container .conSwiper.data-v-94252a69 {
+  width: 100%;
+  height: 325rpx;
+  overflow: hidden;
+}
+.container .conSwiper swiper-item.data-v-94252a69 {
+  width: 100%;
+  width: 100%;
+}
+.container .conSwiper swiper-item image.data-v-94252a69 {
+  height: 100%;
+  width: 100%;
+}
+.container .conTitle.data-v-94252a69 {
+  height: 100rpx;
+  font-size: 35rpx;
+  line-height: 100rpx;
+  margin-left: 40rpx;
+  position: relative;
+}
+.container .conTitle.data-v-94252a69:before {
+  content: "";
+  position: absolute;
+  height: 50rpx;
+  width: 12rpx;
+  top: 27rpx;
+  left: -20rpx;
+  border-radius: 12rpx;
+  background-color: #ffb54c;
+}
+.container .conScroll.data-v-94252a69 {
+  height: 265rpx;
+  width: 100%;
+}
+.container .conScroll scroll-view.data-v-94252a69 {
+  white-space: nowrap;
+}
+.container .conScroll .scrollItem.data-v-94252a69 {
+  display: inline-block;
+  height: 265rpx;
+  width: 200rpx;
+  margin: 0 13rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.container .conScroll .scrollItem image.data-v-94252a69 {
+  width: 200rpx;
+  height: 100%;
+}
+.container .conBottom.data-v-94252a69 {
+  width: 100%;
+  height: 480rpx;
+  padding-top: 50rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .conBottom .bottomItem.data-v-94252a69 {
+  height: 140rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin: 10rpx;
+}
+.container .conBottom image.data-v-94252a69 {
+  height: 100%;
+  width: 100%;
+}

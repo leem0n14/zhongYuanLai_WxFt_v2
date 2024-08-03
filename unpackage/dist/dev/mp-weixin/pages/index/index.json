@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "中源来",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "index-recommend": "./indexComponents/indexRecommend",
+    "index-heritage": "./indexComponents/indexHeritage",
+    "index-rhyme": "./indexComponents/indexRhyme",
+    "index-folksong": "./indexComponents/indexFolksong",
+    "index-folkways": "./indexComponents/indexFolkways",
+    "index-reading": "./indexComponents/indexReading",
+    "index-story": "./indexComponents/indexStory"
+  }
+}

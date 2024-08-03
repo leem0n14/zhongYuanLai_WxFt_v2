@@ -1,0 +1,30 @@
+
+page {
+		background-color: #fff;
+}
+
+/* 水平间距 */
+/* 水平间距 */
+.container .conSearch.data-v-1cf27b2a {
+  height: 85rpx;
+  width: 95%;
+  margin: 0 auto;
+}
+.container .conSearch .searchInput.data-v-1cf27b2a {
+  height: 65rpx;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  border-radius: 30rpx;
+  background-color: #f6f6f6;
+  padding-left: 20rpx;
+  color: #939393;
+  font-size: 25rpx;
+  display: flex;
+  align-items: center;
+}
+.container .conNav.data-v-1cf27b2a {
+  width: 100%;
+  height: 95rpx;
+  padding-top: 10rpx;
+}

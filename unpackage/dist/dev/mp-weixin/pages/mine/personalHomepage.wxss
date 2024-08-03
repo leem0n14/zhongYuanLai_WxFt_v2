@@ -1,0 +1,168 @@
+/* 水平间距 */
+/* 水平间距 */
+.container .conTop.data-v-5de5bced {
+  height: 520rpx;
+  width: 100vw;
+  position: relative;
+}
+.container .conTop .conBgimg.data-v-5de5bced {
+  height: 130%;
+  width: 100vw;
+  position: absolute;
+  filter: blur(10px);
+  z-index: -20;
+}
+.container .conTop .conBgimg image.data-v-5de5bced {
+  height: 100%;
+  width: 100%;
+}
+.container .conTop .conBgimg.data-v-5de5bced:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  background: linear-gradient(180deg, transparent 0%, rgba(51, 51, 51, 0.8) 100%);
+  z-index: -15;
+}
+.container .conTop .bthTurnback.data-v-5de5bced {
+  position: absolute;
+  left: 10rpx;
+}
+.container .conTop .conAccountInf.data-v-5de5bced {
+  height: 355rpx;
+  width: 720rpx;
+  position: absolute;
+  bottom: 0;
+  left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+.container .conTop .conAccountInf .conMainInf.data-v-5de5bced {
+  height: 155rpx;
+  width: 100%;
+  display: flex;
+}
+.container .conTop .conAccountInf .conMainInf .UserAtatar.data-v-5de5bced {
+  height: 155rpx;
+  width: 155rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container .conTop .conAccountInf .conMainInf .UserAtatar image.data-v-5de5bced {
+  height: 100%;
+  width: 100%;
+}
+.container .conTop .conAccountInf .conMainInf .userName.data-v-5de5bced {
+  height: 90%;
+  width: 300rpx;
+  padding: 20rpx;
+  font-size: 40rpx;
+  font-weight: 550;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container .conTop .conAccountInf .editProfile.data-v-5de5bced {
+  width: 200rpx;
+  height: 20rpx;
+}
+.container .conTop .conAccountInf .editProfile button.data-v-5de5bced {
+  background-color: rgba(220, 38, 38, 0);
+  border: 2rpx solid white;
+  border-radius: 50rpx;
+  color: #fff;
+  font-size: 25rpx;
+  left: 480rpx;
+  bottom: 20rpx;
+}
+.container .conTop .conAccountInf .conUserTag.data-v-5de5bced {
+  height: 170rpx;
+  width: 100%;
+  display: flex;
+}
+.container .conTop .conAccountInf .conUserTag .accountFans.data-v-5de5bced,
+.container .conTop .conAccountInf .conUserTag .accountFollows.data-v-5de5bced {
+  width: 170rpx;
+  height: 100rpx;
+  font-size: 33rpx;
+  line-height: 170rpx;
+}
+.container .conTop .conAccountInf .edit.data-v-5de5bced {
+  margin: 0 0 15rpx 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.container .conBottom.data-v-5de5bced {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 40rpx;
+}
+.container .conBottom .nav.data-v-5de5bced {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 80rpx;
+}
+.container .conBottom .vedio.data-v-5de5bced {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rpx;
+}
+.container .conBottom .vedio .vedioItem.data-v-5de5bced {
+  position: relative;
+  height: 350rpx;
+  overflow: hidden;
+}
+.container .conBottom .vedio .vedioItem.data-v-5de5bced:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, transparent 0%, rgba(51, 51, 51, 0.4) 100%);
+}
+.container .conBottom .vedio .vedioItem image.data-v-5de5bced {
+  width: 100%;
+  height: 100%;
+}
+.container .conBottom .vedio .vedioItem .vedioLike.data-v-5de5bced {
+  position: absolute;
+  bottom: 15rpx;
+  left: 20rpx;
+  display: flex;
+  color: #fff;
+  align-content: center;
+}
+.container .conBottom .vedio .vedioItem .vedioLike .likeNum.data-v-5de5bced {
+  margin-left: 10rpx;
+}
+.container .conBottom .eBook.data-v-5de5bced {
+  margin: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 40rpx;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .conBottom .eBook .bookItem.data-v-5de5bced {
+  height: 450rpx;
+}
+.container .conBottom .eBook .bookItem .bookCover.data-v-5de5bced {
+  width: 100%;
+  height: 370rpx;
+}
+.container .conBottom .eBook .bookItem .bookCover image.data-v-5de5bced {
+  width: 100%;
+  height: 100%;
+}
+.container .conBottom .eBook .bookItem .bookName.data-v-5de5bced {
+  margin: 10rpx 0;
+}
+.container .conBottom .eBook .bookItem .readingProgress.data-v-5de5bced {
+  color: gray;
+  font-size: 25rpx;
+}
